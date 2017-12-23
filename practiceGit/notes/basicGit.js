@@ -16,5 +16,9 @@ git branch add-body-content
 //move to a new branch
 git checkout add-body-content
 
-//revert to a previous commits. This will go back to this commit and stuff that happened after will be reverted. 
+//revert to a previous commits. This will go back to this commit and stuff that happened after will be reverted.
 git reset --hard <commit hash>
+
+//merge changes to the master
+git co master
+git merge add-body-content
